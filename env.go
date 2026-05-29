@@ -22,7 +22,7 @@ func Config()(string, error){
 )
 return dbCreds, nil
 }
-//i suspects there exist a bug in this package
+// suspect there exist a bug in this package
 
 
 
