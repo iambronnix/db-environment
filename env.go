@@ -19,7 +19,7 @@ func Config()(string, error){
 	os.Getenv("DB_PASSWORD"),
 	os.Getenv("DB_HOST"),
 	os.Getenv("DB_PORT"),
-	os.Getenv("postgres"),
+	os.Getenv("DB_NAME"),
 )
 return dbCreds, nil
 }
