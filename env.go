@@ -19,10 +19,9 @@ func Config()(string, error){
 	os.Getenv("DB_PASSWORD"),
 	os.Getenv("DB_HOST"),
 	os.Getenv("DB_PORT"),
+	os.Getenv("postgres"),
 )
 return dbCreds, nil
 }
 // suspect there exist a bug in this package
-
-
 
